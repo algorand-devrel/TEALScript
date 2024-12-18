@@ -693,7 +693,7 @@ interface AppOnChainTransactionParams extends CommonOnChainTransactionParams {
   /** The number of assets in the foreign assets array */
   numAssets: uint64;
   /** The number of applications in the foreign applications array */
-  numApplicatons: uint64;
+  numApplications: uint64;
   /** The number of logs emitted by this application call */
   numLogs: uint64;
   /** The number of pages used by the approval program */
